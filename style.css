@@ -68,7 +68,7 @@ header{
     display: flex;
     width: 100%;
     height: 80vh;
-    background-color: rgb(234, 234, 234);
+    background-color: rgb(243, 243, 243);
     flex-direction: row-reverse;
 }
 
@@ -89,4 +89,220 @@ header{
     display: flex;
     margin-top: 20px;
     gap: 50px;
+}
+header div div .rdv{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header div div .realisation{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid black;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.section-promesse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 125vh;
+}
+
+
+.titre-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    
+}
+.image-et-liste{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+}
+.image-detail{
+    width: 400px;
+    height: 400px;
+}
+.liste-promesse{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    list-style: circle;
+    color: gray;
+}
+
+section div div .rdv{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+    width: 150px;
+}
+.section-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: 150vh;
+}
+.section-services h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.section-services-article1{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 80vh;
+    background-color: white;
+}
+.titre-services{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: gray;
+}
+.button-rdvservice{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.divider-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.section-realisation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350vh;
+    background-color: rgb(255, 255, 255);
+
+}
+.realisation-article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+    padding: 100px;
+}
+.image-realisation{
+    
+    width: 600px;
+    height: 300px;
+}
+.image-realisation2{
+    
+    width: 400px;
+    height: 500px;
+}
+.image-realisation4{
+    
+    width: 500px;
+    height: 400px;
+}
+.divider-realisation{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.realisation-article2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(243, 243, 243);
+    gap: 20px;
+    padding: 100px;
+    
+}
+.divider-realisation2{
+    
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+}
+.section-temoignage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+}
+.article-temoignage{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+
+}
+.divider-temoignage{
+    display: flex;
+    flex-direction: row;
+}
+
+.texte-temoignage{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.nom-temoignage{
+    display: flex;
+    flex-direction: column;
+}
+.squeezie{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.image-nom-temoignage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+h4{
+    margin: 0;
 }
