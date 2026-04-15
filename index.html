@@ -26,7 +26,7 @@
                     </ul>
                     
                 </div>
-                    <a class="contact" href="#">Contact</a>
+                    <a class="contact" target="_blank" href="mailto:clement.riviere.studio@gmail.com">Contact</a>
             </div>
             
         
@@ -40,7 +40,7 @@
             <p>Révéler le potentiel de chaque espace</p>
             <div class="header-cta">
                 <a class="rdv" href="#">Prendre rendez-vous</a>
-                <a class="realisation" href="#">Voir mes réalisations</a>
+                <a class="realisation" href="#section-realisation">Voir mes réalisations</a>
             </div>
 
         </div>
@@ -53,7 +53,15 @@
 
         <div class="image-et-liste">
             <div class="image">
+                <div class="image-row">
                 <img class="image-detail" src="Assets/promesses.png" alt="">
+                <div class="image-end">
+                <img class="image-detail2" src="Assets/couverture.png" alt="">
+                </div>
+                </div>
+                <div class="image-centrer">
+                <img class="image-detail3" src="Assets/decoration-interieur.png" alt="">
+                </div>
             </div>
                 <div>
             <ul class="liste-promesse">
@@ -62,7 +70,7 @@
                 <li>Une expertise esthétique alliée à une rigueur technique</li>
                 <li>Un accompagnement complet, du croquis à la réception du chantier</li>
             </ul>
-                <a class="rdv" href="#">Prendre rendez-vous</a>
+                <a class="savoir-plus" href="#">En savoir plus</a>
                 </div>
         </div>
     </section>
@@ -74,7 +82,7 @@
                 <div class="titre-services">
                 <h3>Rénovation d'appartements</h3>
                 <p>Repenser la circulation, les volumes et la lumière pour créer des intérieurs élégants, fonctionnels et chaleureux.</p>
-                <a class="button-rdvservice" href="#">Prendre rendez-vous</a>
+                <a class="button-rdvservice" href="#">Demander un devis</a>
                 </div>
             </article>
             <article class="section-services-article1">
@@ -82,7 +90,7 @@
                 <div class="titre-services">
                 <h3>Aménagement sur mesure</h3>
                 <p>Conception de mobilier intégré et d'espaces adaptés à vos besoins : bibliothèques, rangements, cuisines, bureaux...</p>
-                <a class="button-rdvservice" href="#">Prendre rendez-vous</a>
+                <a class="button-rdvservice" href="#">Demander un devis</a>
                 </div>
             </article>
             <article class="section-services-article1">
@@ -90,7 +98,7 @@
                 <div class="titre-services">
                 <h3>Décoration intérieure</h3>
                 <p>Sélection de matériaux, textures et couleurs pour harmoniser votre intérieur et lui donner une identité unique.</p>
-                <a class="button-rdvservice" href="#">Prendre rendez-vous</a>
+                <a class="button-rdvservice" href="#">Demander un devis</a>
                 </div>
             </article>
         </div>
@@ -161,7 +169,7 @@
             </article>
             <article class="article-temoignage">
                 <div class="texte-temoignage">
-                    <p>Un vrai sens du détail et une belle écoute de nos besoins. Les meubles sur mesure sont parfaits et l’espace respire.</p>
+                    <p>Un vrai sens du détail et une belle écoute de nos besoins. Les meubles sur mesure sont parfaits et l’espace respire. <br> <br></p>
                     <div class="image-nom-temoignage">
                         <img class="squeezie" src="Assets/squeezie.jpg" alt="">
                         <div>
@@ -180,7 +188,7 @@
         </div>
     </section>
 </body>
-<footer>
+<footer id="footer-scroll">
     <section class="section-footer">
         <div class="divider-footer">
             <div class="footer-gauche">
@@ -190,28 +198,22 @@
                     comment avancer ensemble. <br> 
                     Laissez votre contact téléphonique et je vous rappellerai.</p>
                     <div class="footer-gauche-logo">
-                        <a  href=""> <img class="footer-logo" src="Assets/discord logo.png" alt=""></a>
-                        <a  href=""> <img class="footer-logo" src="Assets/facebook.png" alt=""></a>
-                        <a  href=""> <img class="footer-logo" src="Assets/dribble.svg" alt=""></a>
-                        <a  href=""> <img class="footer-logo" src="Assets/instagram.png" alt=""></a>
-                        <a  href=""> <img class="footer-logo" src="Assets/behance.avif" alt=""></a>
+                        <a target="_blank" href="https://discord.com/"> <img class="footer-logo" src="Assets/discord logo.png" alt=""></a>
+                        <a target="_blank" href="https://www.facebook.com/?locale=fr_FR"> <img class="footer-logo" src="Assets/facebook.png" alt=""></a>
+                        <a target="_blank" href="https://dribbble.com/"> <img class="footer-logo" src="Assets/dribble.svg" alt=""></a>
+                        <a target="_blank" href="https://www.instagram.com/?hl=fr"> <img class="footer-logo" src="Assets/instagram.png" alt=""></a>
+                        <a target="_blank" href="https://www.behance.net/"> <img class="footer-logo" src="Assets/behance.avif" alt=""></a>
 
                     </div>
             </div>
 
             <div class="footer-droite">
-                <article class="article-footer-droite">
-                    <h4>Nom</h4>
-                </article>
-                <article class="article-footer-droite">
-                    <h4>Téléphone</h4>
-                </article>
-                <article class="article-footer-droite">
-                    <h4>Email</h4>
-                </article>
-                <article class="article-footer-droite">
-                    <h4>Message</h4>
-                </article>
+                <div class="formulaire">
+                <input type="text" placeholder="Nom">
+                <input type="text" placeholder="Téléphone">
+                <input type="text" placeholder="E-mail">
+                <textarea placeholder="Message"></textarea>
+                </div>
                 <a class="footer-envoyer" href="#">Envoyer</a>
             </div>
         </div>

@@ -5,6 +5,7 @@ body{
     flex-direction: column;
     margin: 0;
     
+    
 }
 
 
@@ -107,6 +108,22 @@ header div div .rdv{
     padding-left: 30px;
     padding-right: 30px;
 }
+.savoir-plus{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    width: 105px;
+}
+.savoir-plus:hover{
+    transition-duration: 0.3s;
+    background-color: rgb(196, 196, 196);
+}
 
 .rdv:hover{
     transition-duration: 0.3s;
@@ -146,7 +163,8 @@ header div div .realisation{
 }
 .image{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 5px;
     
 }
 .image-et-liste{
@@ -155,8 +173,30 @@ header div div .realisation{
     margin-top: 100px;
 }
 .image-detail{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
+}
+.image-detail2{
+    width: 150px;
+    height: 150px;
+}
+.image-detail3{
+    width: 150px;
+    height: 150px;
+}
+.image-row{
+    display: flex;
+    gap: 5px;
+}
+.image-centrer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-end{
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 .liste-promesse{
     display: flex;
@@ -385,6 +425,28 @@ footer{
     width: 500px;
     gap: 30px;
 }
+
+.formulaire{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-droite input, textarea{
+    width: 100%;
+  padding: 11px 14px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  border-radius: 3px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .article-footer-droite{
     display: flex;
     background-color: white;
@@ -431,6 +493,7 @@ footer{
     cursor: pointer;
     right: 20px;
     bottom: 20px;
+    
     
     
     
