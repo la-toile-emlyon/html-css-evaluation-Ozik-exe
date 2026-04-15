@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clement Rivière Studio</title>
+    <link rel="shortcut icon" href="Assets/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="fleche">
+<a href="">
+<img class="fleche-taille" src="Assets/fleche.png" alt="">
+</a>
+</div>
     <nav>
             <a href="">
             <img class="logo" src="Assets\logo.png" alt="">
@@ -14,9 +20,9 @@
             <div class="lien-contact">
                 <div id="ul-nav">
                     <ul class="ul-nav">
-                        <li><a href="#">Lien 1</a></li>
-                        <li><a href="#">Lien 2</a></li>
-                        <li><a href="#">Lien 3</a></li>
+                        <li><a href="#section-promesse">Promesses</a></li>
+                        <li><a href="#section-services">Services</a></li>
+                        <li><a href="#section-realisation">Réalisations</a></li>
                     </ul>
                     
                 </div>
@@ -25,11 +31,11 @@
             
         
     </nav>
-
+    
     <header>
-        <img class="promesse" src="Assets/logo.png" alt="">
+        <img id="header" src="Assets/logo.png" alt="">
         
-        <div class="texte-promesse">
+        <div class="texte-header">
             <h1>Clémence Rivière Studio</h1>
             <p>Révéler le potentiel de chaque espace</p>
             <div class="header-cta">
@@ -39,7 +45,7 @@
 
         </div>
     </header>
-    <section class="section-promesse">
+    <section id="section-promesse">
         <div class="titre-section">
         <h1>Promesses Clients</h1>
         <p>Une approche centrée sur vos besoins et votre bien-être</p>
@@ -60,7 +66,7 @@
                 </div>
         </div>
     </section>
-    <section class="section-services">
+    <section id="section-services">
         <h1>Services proposés</h1>
         <div class="divider-services">
             <article class="section-services-article1">
@@ -90,7 +96,7 @@
         </div>
 
     </section>
-    <section class="section-realisation">
+    <section id="section-realisation">
         <h1>Réalisations</h1>
         <article class="realisation-article">
             <img class="image-realisation" src="Assets/im3rd-media-FJZtZldA-uE-unsplash.jpg" alt="">
@@ -136,24 +142,80 @@
     </section>
 
     <section class="section-temoignage">
-        <h2>Témoignages</h2>
+        <h1>Témoignages</h1>
         <div class="divider-temoignage">
             <article class="article-temoignage">
                 <div class="texte-temoignage">
                     <p>Clémence a su repenser notre espace avec beaucoup d’intelligence et de goût. Le résultat est à la fois pratique et sublime.</p>
                     <div class="image-nom-temoignage">
-                        <img class="squeezie" src="Assets/squeezie.jpg" alt="">
+                        <img class="squeezie" src="Assets/olivia.webp" alt="">
                         <div>
                             <div class="nom-temoignage">
                             <h4>Mathilde</h4>
-                            <p class="truc-mathilde">Mission: Rénovation d'appartement</p>
+                            <p class="truc-mathilde">Rénovation d'appartement</p>
                         </div>
                     </div>
                     
                 </div>
 
             </article>
+            <article class="article-temoignage">
+                <div class="texte-temoignage">
+                    <p>Un vrai sens du détail et une belle écoute de nos besoins. Les meubles sur mesure sont parfaits et l’espace respire.</p>
+                    <div class="image-nom-temoignage">
+                        <img class="squeezie" src="Assets/squeezie.jpg" alt="">
+                        <div>
+                            <div class="nom-temoignage">
+                            <h4>Olivier</h4>
+                            <p class="truc-mathilde">Aménagement de bureau</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </article>
+            
+            
+            
         </div>
     </section>
 </body>
+<footer>
+    <section class="section-footer">
+        <div class="divider-footer">
+            <div class="footer-gauche">
+                <h1>Prêts à travailler ensemble ?</h1>
+                <p class="footer-description">Une idée, un projet, une envie de collaboration ? <br>
+                    Contactez-nous, nous serons ravis d’en discuter et de voir
+                    comment avancer ensemble. <br> 
+                    Laissez votre contact téléphonique et je vous rappellerai.</p>
+                    <div class="footer-gauche-logo">
+                        <a  href=""> <img class="footer-logo" src="Assets/discord logo.png" alt=""></a>
+                        <a  href=""> <img class="footer-logo" src="Assets/facebook.png" alt=""></a>
+                        <a  href=""> <img class="footer-logo" src="Assets/dribble.svg" alt=""></a>
+                        <a  href=""> <img class="footer-logo" src="Assets/instagram.png" alt=""></a>
+                        <a  href=""> <img class="footer-logo" src="Assets/behance.avif" alt=""></a>
+
+                    </div>
+            </div>
+
+            <div class="footer-droite">
+                <article class="article-footer-droite">
+                    <h4>Nom</h4>
+                </article>
+                <article class="article-footer-droite">
+                    <h4>Téléphone</h4>
+                </article>
+                <article class="article-footer-droite">
+                    <h4>Email</h4>
+                </article>
+                <article class="article-footer-droite">
+                    <h4>Message</h4>
+                </article>
+                <a class="footer-envoyer" href="#">Envoyer</a>
+            </div>
+        </div>
+    </section>
+</footer>
+
 </html>

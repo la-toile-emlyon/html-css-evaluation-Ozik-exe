@@ -32,6 +32,15 @@ nav{
     color: black;
 }
 
+.ul-nav a:hover{
+    
+    color: rgb(199, 199, 199);
+    transition-duration: 0.3s;
+}
+.contact:hover{
+    background-color: rgb(198, 198, 198);
+    transition-duration: 0.3s;
+}
 
 .logo{
     margin: 100px;
@@ -72,12 +81,12 @@ header{
     flex-direction: row-reverse;
 }
 
-.promesse{
+#header{
     width: 40%;
     
     
 }
-.texte-promesse{
+.texte-header{
     display: flex;
     width: 40%;
     padding: 50px;
@@ -98,6 +107,12 @@ header div div .rdv{
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.rdv:hover{
+    transition-duration: 0.3s;
+    background-color: rgb(196, 196, 196);
+
+}
 header div div .realisation{
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -107,13 +122,19 @@ header div div .realisation{
     padding-left: 30px;
     padding-right: 30px;
 }
-.section-promesse{
+
+.realisation:hover{
+
+    transition-duration: 0.3s;
+    background-color: rgb(198, 198, 198);
+}
+#section-promesse{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 125vh;
+    height: 110vh;
 }
 
 
@@ -142,7 +163,8 @@ header div div .realisation{
     flex-direction: column;
     gap: 50px;
     list-style: circle;
-    color: gray;
+    color: rgb(74, 74, 74);
+    font-size: larger;
 }
 
 section div div .rdv{
@@ -157,16 +179,22 @@ section div div .rdv{
     margin-top: 50px;
     width: 150px;
 }
-.section-services{
+#section-services{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: rgb(243, 243, 243);
     width: 100%;
-    height: 150vh;
+    height: 125vh;
+    
 }
-.section-services h1{
+#section-services:hover{
+
+
+    
+}
+#section-services h1{
     text-align: center;
     padding-bottom: 50px;
 }
@@ -194,13 +222,19 @@ p{
     background-color: black;
     padding: 10px;
 }
+
+.button-rdvservice:hover{
+    transition-duration: 0.3s;
+    background-color: rgb(196, 196, 196);
+}
+
 .divider-services{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
 }
-.section-realisation{
+#section-realisation{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,7 +253,8 @@ p{
     height: 50vh;
     background-color: rgb(255, 255, 255);
     gap: 20px;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .image-realisation{
     
@@ -250,7 +285,9 @@ p{
     height: 50vh;
     background-color: rgb(243, 243, 243);
     gap: 20px;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
     
 }
 .divider-realisation2{
@@ -263,16 +300,17 @@ p{
 .section-temoignage{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
-    height: 150vh;
+    height: 70vh;
+}
+.section-temoignage h1{
+    padding: 30px;
 }
 .article-temoignage{
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 300px;
+    width: 475px;
     background-color: rgb(243, 243, 243);
     border-radius: 10px;
 
@@ -280,16 +318,20 @@ p{
 .divider-temoignage{
     display: flex;
     flex-direction: row;
+    gap: 40px;
 }
 
 .texte-temoignage{
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 20px;
 }
 .nom-temoignage{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
 }
 .squeezie{
     width: 50px;
@@ -299,10 +341,104 @@ p{
 }
 .image-nom-temoignage{
     display: flex;
-    justify-content: center;
+    
     align-items: center;
-    gap: 50px;
+    gap: 10px;
 }
 h4{
     margin: 0;
+}
+.truc-mathilde{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+}
+.section-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(243, 243, 243);
+}
+.divider-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footer-gauche{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.footer-droite{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 30px;
+}
+.article-footer-droite{
+    display: flex;
+    background-color: white;
+    height: 10vh;
+    align-items: center;
+}
+.article-footer-droite h4{
+    margin-left: 20px;
+}
+.footer-gauche-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+   
+}
+.footer-logo{
+    
+    width: 40px;
+}
+.footer-envoyer{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 60px;
+}
+
+
+.footer-envoyer:hover{
+    transition-duration: 0.3s;
+    background-color: rgb(196, 196, 196);
+}
+.footer-description{
+    color: rgb(68, 68, 68);
+}
+.fleche{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    right: 20px;
+    bottom: 20px;
+    
+    
+    
+}
+.fleche-taille{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(191, 191, 191);
+    padding: 10px;
+    border-radius: 100%;
 }
